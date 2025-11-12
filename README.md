@@ -23,6 +23,17 @@
 - Flaskを用いて簡易なWebAPIサーバーを構築
 - AWSにEC2・VPCの環境構築。ローカル環境から接続可能なAWS環境を構築
 
+## 保有資格
+- 2022年：AWS Certified Cloud Practitioner												
+- 2022年：AWS Certified Solutions Architect - Associate												
+- 2023年：Cisco Certified Network Associate (CCNA)												
+- 2023年：Implementing and Operating Cisco Enterprise Network Core Technologies (ENCOR)												
+- 2024年：Implementing Cisco Enterprise Advanced Routing and Services (ENARSI)												
+- 2024年：LPI Level1 Exam 101 (LPIC-101)												
+- 2025年：LPI Level1 Exam 102 (LPIC-102)												
+- 2025年：AWS Certified Solutions Architect - Professional 												
+- 2025年：基本情報技術者試験
+
 ## その他
 - 連絡先: [X(旧Twitter)](https://x.com/mr110825) / [メール](mailto:ptin110825@gmail.com)
 
