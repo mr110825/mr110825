@@ -6,22 +6,37 @@ AWS・クラウドインフラエンジニアを目指して学習中。
 CCNP・AWS SAP取得済み。個人プロジェクトでAWS実務経験を積んでいます。
 
 ## スキルセット
-- Python
-- Flask
-- Zabbix
-- HTML・CSS
-- AWS：EC2・VPC
 
-## 開発経験・実務経験
-- EDI、VPNサービスのヘルプデスク・保守・監視業務を担当
--   利用ツール（Teraterm・Zabbix・JP1）
-- チャットアプリ開発
-  - 要件定義
-  - フロントエンド開発（HTML・CSSJavascript）
-  - バックエンド開発（Python。使用フレームワーク：Flask）
-- HTML・CSSより簡易なWebサイトを作成
-- Flaskを用いて簡易なWebAPIサーバーを構築
-- AWSにEC2・VPCの環境構築。ローカル環境から接続可能なAWS環境を構築
+### クラウド・インフラ
+- **AWS**: VPC, EC2, ALB, Lambda, Athena, QuickSight, CloudWatch（学習中）
+- **IaC**: Terraform（学習中）
+- **監視**: Zabbix, CloudWatch
+
+### プログラミング
+- Python (Flask)
+- HTML・CSS・JavaScript
+
+### ネットワーク
+- VPC設計、TCP/IP、ルーティング
+- VPN・EDIサービスの保守経験（Teraterm, JP1）
+
+## プロジェクト実績
+
+### 個人プロジェクト
+- **[AWS Network Visibility Dashboard](https://github.com/mr110825/aws-network-visibility-dashboard)** （実装中）
+  - VPC Flow Logs監視・可視化ダッシュボード
+  - 技術: Terraform, Lambda, Athena, QuickSight, CloudWatch
+  - 目的: AWS環境のネットワーク可視化・セキュリティ監視
+
+### 開発経験
+- チャットアプリ開発（要件定義～実装）
+  - Flask + WebSocket、HTML/CSS/JavaScript
+- Flask WebAPI サーバー構築
+- AWS環境構築（VPC, EC2, ローカル接続対応）
+
+### 実務経験
+- EDI・VPNサービスのヘルプデスク・保守・監視業務
+  - 利用ツール: Teraterm, Zabbix, JP1
 
 ## 保有資格
 - 2022年：AWS Certified Cloud Practitioner												
