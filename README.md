@@ -50,4 +50,4 @@ GitHub Pages から AWS（S3 + CloudFront）へ移行した技術ブログ基盤
 | 2022 | AWS Solutions Architect - Associate, Cloud Practitioner |
 
 ## 連絡先
-[X](https://x.com/mr110825) / [メール](mailto:ptin110825@gmail.com)
+[X](https://x.com/mr110825)
