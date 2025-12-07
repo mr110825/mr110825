@@ -51,5 +51,3 @@ GitHub Pages から AWS（S3 + CloudFront）へ移行した技術ブログ基盤
 
 ## 連絡先
 [X](https://x.com/mr110825) / [メール](mailto:ptin110825@gmail.com)
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mr110825&show_icons=true&theme=radical)
