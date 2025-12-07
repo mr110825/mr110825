@@ -19,8 +19,8 @@ GitHub Pages から AWS（S3 + CloudFront）へ移行した技術ブログ基盤
 - **セキュリティ**: OAC による S3 直接アクセス禁止
 
 ### 技術アウトプット
-- **[Zenn](https://zenn.dev/mr110825)**: 技術記事 8 本（ネットワーク基礎シリーズ等）
-- **[TIL ブログ](https://fumi-til.com)**: 学習記録 32 本（Terraform、AWS、IT 基礎）
+- **[Zenn](https://zenn.dev/mr110825)**: 技術記事を投稿（ネットワーク基礎シリーズ等）
+- **[TIL ブログ](https://fumi-til.com)**: 学習記録を投稿（Terraform、AWS、IT 基礎）
 
 ### 開発経験
 - チャットアプリ開発（要件定義〜実装）- Flask + WebSocket
