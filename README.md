@@ -1,55 +1,55 @@
 # こんにちは！👋 私はフミです
 
 ## 自己紹介
-AWS・クラウドインフラエンジニアを目指して学習中。 
-ネットワーク監視・可視化、IaC（Terraform）、セキュリティ設計に関心。
-CCNP・AWS SAP取得済み。個人プロジェクトでAWS実務経験を積んでいます。
-
-## スキルセット
-
-### クラウド・インフラ
-- **AWS**: VPC, EC2, ALB, Lambda, Athena, QuickSight, CloudWatch（学習中）
-- **IaC**: Terraform（学習中）
-- **監視**: Zabbix, CloudWatch
-
-### プログラミング
-- Python (Flask)
-- HTML・CSS・JavaScript
-
-### ネットワーク
-- VPC設計、TCP/IP、ルーティング
-- VPN・EDIサービスの保守経験（Teraterm, JP1）
+AWS・クラウドインフラエンジニアを目指して活動中。  
+Terraform による IaC、CI/CD 設計、監視基盤構築に注力しています。  
+CCNP相当・AWS SAP 取得済み。個人プロジェクトで AWS 環境を構築・公開中。
 
 ## プロジェクト実績
 
-### 個人プロジェクト
-- **[AWS Network Visibility Dashboard](https://github.com/mr110825/aws-network-visibility-dashboard)** （実装中）
-  - VPC Flow Logs監視・可視化ダッシュボード
-  - 技術: Terraform, Lambda, Athena, QuickSight, CloudWatch
-  - 目的: AWS環境のネットワーク可視化・セキュリティ監視
+### 技術ブログ AWS 移行
+**[fumi-til-infrastructure](https://github.com/mr110825/fumi-til-infrastructure)** | [公開サイト](https://fumi-til.com)
+
+GitHub Pages から AWS（S3 + CloudFront）へ移行した技術ブログ基盤。
+
+- **IaC**: Terraform 8 modules 構成、リモート state 管理
+- **CI/CD**: GitHub Actions + OIDC 認証（アクセスキー不要）
+- **監視**: CloudWatch ダッシュボード・アラーム、AWS Budgets
+- **ログ分析**: Athena による CloudFront ログ分析
+- **セキュリティ**: OAC による S3 直接アクセス禁止
+
+### 技術アウトプット
+- **[Zenn](https://zenn.dev/mr110825)**: 技術記事 8 本（ネットワーク基礎シリーズ等）
+- **[TIL ブログ](https://fumi-til.com)**: 学習記録 32 本（Terraform、AWS、IT 基礎）
 
 ### 開発経験
-- チャットアプリ開発（要件定義～実装）
-  - Flask + WebSocket、HTML/CSS/JavaScript
-- Flask WebAPI サーバー構築
-- AWS環境構築（VPC, EC2, ローカル接続対応）
+- チャットアプリ開発（要件定義〜実装）- Flask + WebSocket
+- AWS 環境構築（VPC, EC2, ローカル接続対応）
 
 ### 実務経験
-- EDI・VPNサービスのヘルプデスク・保守・監視業務
-  - 利用ツール: Teraterm, Zabbix, JP1
+- EDI・VPN サービスのヘルプデスク・保守・監視（Zabbix, JP1）
+
+## スキルセット
+
+| カテゴリ | 技術 |
+|----------|------|
+| AWS | S3, CloudFront, Route53, ACM, IAM, CloudWatch, SNS, Athena |
+| IaC / CI/CD | Terraform, GitHub Actions |
+| ネットワーク | VPC 設計, TCP/IP, ルーティング（CCNP 相当） |
+| 監視 | CloudWatch, Zabbix, JP1 |
+| その他 | Python, Hugo, Git |
 
 ## 保有資格
-- 2022年：AWS Certified Cloud Practitioner												
-- 2022年：AWS Certified Solutions Architect - Associate												
-- 2023年：Cisco Certified Network Associate (CCNA)												
-- 2023年：Implementing and Operating Cisco Enterprise Network Core Technologies (ENCOR)												
-- 2024年：Implementing Cisco Enterprise Advanced Routing and Services (ENARSI)												
-- 2024年：LPI Level1 Exam 101 (LPIC-101)												
-- 2025年：LPI Level1 Exam 102 (LPIC-102)												
-- 2025年：AWS Certified Solutions Architect - Professional 												
-- 2025年：基本情報技術者試験
+| 年 | 資格 |
+|-----|------|
+| 2025 | AWS Solutions Architect - Professional |
+| 2025 | 基本情報技術者試験 |
+| 2024 | ENARSI（CCNP 相当） |
+| 2024 | LPIC-1 |
+| 2023 | ENCOR（CCNP 相当）, CCNA |
+| 2022 | AWS Solutions Architect - Associate, Cloud Practitioner |
 
-## その他
-- 連絡先: [X(旧Twitter)](https://x.com/mr110825) / [メール](mailto:ptin110825@gmail.com)
+## 連絡先
+[X](https://x.com/mr110825) / [メール](mailto:ptin110825@gmail.com)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mr110825&show_icons=true&theme=radical)
