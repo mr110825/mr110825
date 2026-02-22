@@ -3,24 +3,24 @@
 ## 自己紹介
 AWS・クラウドインフラエンジニアを目指して活動中。  
 Terraform による IaC、CI/CD 設計、監視基盤構築に注力しています。  
-CCNP相当・AWS SAP 取得済み。個人プロジェクトで AWS 環境を構築・公開中。
+CCNP相当・AWS SAP 取得済み。個人プロジェクトで AWS 環境の構築・運用・廃止までを経験。
 
 ## プロジェクト実績
 
-### 技術ブログ AWS 移行
-**[fumi-til-infrastructure](https://github.com/mr110825/fumi-til-infrastructure)** | [公開サイト](https://fumi-til.com)
+### 技術ブログ AWS 基盤（構築〜廃止）
+**[fumi-til-infrastructure](https://github.com/mr110825/fumi-til-infrastructure)**
 
-GitHub Pages から AWS（S3 + CloudFront）へ移行した技術ブログ基盤。
+AWS（S3 + CloudFront）で運用した技術ブログ基盤。構築・運用・廃止（terraform destroy）までを一貫して実施。
 
 - **IaC**: Terraform 8 modules 構成、リモート state 管理
 - **CI/CD**: GitHub Actions + OIDC 認証（アクセスキー不要）
 - **監視**: CloudWatch ダッシュボード・アラーム、AWS Budgets
 - **ログ分析**: Athena による CloudFront ログ分析
 - **セキュリティ**: OAC による S3 直接アクセス禁止
+- **廃止**: S3/CloudFront/Route53/ACM/IAM 等を terraform destroy + 手動削除で完全撤去
 
 ### 技術アウトプット
 - **[Zenn](https://zenn.dev/mr110825)**: 技術記事を投稿（ネットワーク基礎シリーズ等）
-- **[TIL ブログ](https://fumi-til.com)**: 学習記録を投稿（Terraform、AWS、IT 基礎）
 
 ### 開発経験
 - チャットアプリ開発（要件定義〜実装）- Flask + WebSocket
